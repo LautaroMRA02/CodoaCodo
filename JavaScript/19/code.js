@@ -11,7 +11,7 @@ var calificacion = () => {
         9 :'Notable',
         10 :'Sobresaliente',
     }
-    const CALIFICATION_FINALY = CALIFICAION_NOTA[nota];
+    const CALIFICATION_FINALY = CALIFICAION_NOTA[nota] || "nota excede los limites intente de nuevo";
     document.write(CALIFICATION_FINALY);
 }
 calificacion() 
