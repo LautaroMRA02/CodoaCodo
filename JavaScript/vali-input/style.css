@@ -1,0 +1,78 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{background-color: rgb(24, 24, 24);}
+.container
+{
+    display: flex;
+    position: absolute;
+    flex-flow: row nowrap;
+    gap: 48px;
+
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    padding: 32px;
+    border-radius: 5px;
+    background-color: rgba(202, 202, 202, 0.535);
+}
+.box1
+{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    gap: 16px;
+    width: 300px;
+    height: 300px;
+}
+.box1 input 
+{
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 5px;
+
+}
+
+
+
+
+
+
+
+
+.box2{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 300px;
+    height: 300px;
+
+}
+
+
+
+
+
+
+
+
+.tabla
+{
+    font-size: 24px;
+ 
+    border-radius: 5px;
+    padding: 20px;
+
+
+    text-align:center;
+
+}
+th,th{padding: 20px;}
