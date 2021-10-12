@@ -9,7 +9,6 @@ for(let numero = 1 ; numero <= 500; numero++){
     }else{
         document.write(`${numero} <br>`)
     }
-
     contador++
     if(contador === 5){
         var contador = 0;
