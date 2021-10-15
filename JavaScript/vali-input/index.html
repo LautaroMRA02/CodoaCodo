@@ -10,34 +10,23 @@
 </head>
 
 <body>
-
     <div class="container">
-        <form action="" class="  need-validation">
-            <div class="box1">
-                <input type="email" class="  need-validation" placeholder="Email" id="correo">
-                <input type="submit" value="anotar">
-            </div>
+        <form for="domTextElement" class="box1 need-validation">
+                <input id="domTextElement" type="email" class="  need-validation" placeholder="Email" id="correo">
+                <input type="button" value="anotar" onclick="getValueInput()">
         </form>
         <section class="box2">
         
                 <table class="tabla">
                     <tr>
                         <th>Email</th>
-
                     </tr>
                     <tr>
-                        <td>example@gmail.com</td>
-
+                        <td><p id="valueInput">example@gmail.com</p></td>
                     </tr>
                 </table>
         </section>
     </div>
-
-
-
-
-
-
     <script src="code.js"></script>
 </body>
 
