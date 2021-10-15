@@ -41,14 +41,6 @@ body{background-color: rgb(24, 24, 24);}
     border-radius: 5px;
 
 }
-
-
-
-
-
-
-
-
 .box2{
     display: flex;
     flex-flow: column nowrap;
@@ -56,14 +48,6 @@ body{background-color: rgb(24, 24, 24);}
     height: 300px;
 
 }
-
-
-
-
-
-
-
-
 .tabla
 {
     font-size: 24px;
