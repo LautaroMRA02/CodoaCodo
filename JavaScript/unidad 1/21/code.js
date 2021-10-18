@@ -5,7 +5,7 @@ while (run === true){
     var corte = "X";
     if (num1 == corte || num1 == null){
         var run = false;
-    }else if(num1 == null || Number.NaN(num1)){
+    }else if(num1 == null || isNaN(num1)){
         alert("no ingreso un Numero");
         num1 = Number(0);
         var suma = suma + num1;            
@@ -16,3 +16,4 @@ while (run === true){
     }
 }
 document.write(`la suma es ${suma}`)
+
