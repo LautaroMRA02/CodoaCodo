@@ -12,3 +12,13 @@ while(i < edades.length){
     }
 }
 document.write(`estas son todas las edades ${edades}`);
+
+document.write(`la cantidad de alumnos son: ${edades.length}<br>`)
+
+;
+for(let a=1;a < edades.length;a++){
+    if(edades[a]%2==0){
+        document.write(edades[a],"<br>");
+    };
+}
+document.write(`estas son todas las edades ${edades}`);
